@@ -1,0 +1,81 @@
+header {
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.headerContainer {
+	/*top, right bottom, left*/
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 10px;
+}
+
+.container {
+	margin: auto;
+	width: 90%;
+}
+
+body {
+	font: sans-serif;
+	line-height: 1.2em;
+}
+
+.boxOne  {
+	background-color: #E4E5E6;
+	color: #2A2C2C;
+	padding: 10px 10px 30px 10px;
+
+}
+
+
+h1 {
+	color: #E6A029;
+	/*background-color: #1F1F1F; */
+	font: bold 48px sans-serif;
+	line-height: 1em;
+	margin-bottom: 1%;
+}
+
+h2 {
+	display: block;
+	margin-bottom: 3%;
+	font-size: 32px;
+}
+
+h3 {
+	margin-bottom: 3%;
+	font-size: 24px;
+}
+
+
+img{
+	display: block; /*make an img center*/
+	width: 90%;
+	margin: 4% auto 4% auto;
+	
+}
+
+strong-big {
+	font-size: 24px;
+}
+
+a {
+	color: #46C8D6;
+}
+
+blockquote {
+	border-left: #fa8072 solid 5px;
+	background-color: #fef2f0;
+	color: #64332d;
+	font-style: italic;
+	width: 80%;
+	padding: 2%;
+}
+
+code {
+	display: block;
+	background-color: #eee;
+	font-family: "Courier New";
+	width: 70%;
+	padding: 2%;
+}
+
