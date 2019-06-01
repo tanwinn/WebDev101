@@ -55,11 +55,22 @@ img{
 }
 
 strong-big {
-	font-size: 24px;
+	font-size: 18px;
 }
 
 a {
 	color: #46C8D6;
+}
+
+ul.fancy{
+	display: block;
+	padding-left: 3%;	
+	list-style: none;
+}
+
+ul.fancy li{
+	border-bottom: .5px dashed #ccacb4;
+	padding: 1.5% 0% 2.5% 0%;
 }
 
 blockquote {
@@ -72,10 +83,39 @@ blockquote {
 }
 
 code {
-	display: block;
 	background-color: #eee;
 	font-family: "Courier New";
-	width: 70%;
-	padding: 2%;
+	padding:.5%;
 }
 
+code.block{
+	display: block;
+	padding: 2%;
+	margin: 3%;
+	width: 70%;
+}
+
+div.categories{
+	border: 1px orange dashed;
+	width: 90%;
+	padding: 3%;
+	border-radius: 5%;
+	margin: auto;
+}
+
+div.categories h3{
+	text-align: center;
+}
+
+div.categories ul{
+	list-style:square;
+	padding: 3%;
+}
+
+crimson{
+	color: crimson;
+}
+
+teal{
+	color: teal;
+}
