@@ -86,13 +86,26 @@ div.categories ul{
 	padding: 3%;
 }
 
+em{
+	color: navy;
+}
 
 h1 {
-	color: #E6A029;
+	color: #ECB920;
 	/*background-color: #1F1F1F; */
-	font: bold 48px sans-serif;
+	font: bold 36px sans-serif;
 	line-height: 1em;
 	margin-bottom: 1%;
+}
+
+h1.elegant{
+	font: 36px initial;
+	text-align: center;
+	background: rgb(143, 112, 117);
+	padding: 1%;
+	width: 40%;
+	display: block;
+	margin: auto;
 }
 
 h2 {
@@ -115,30 +128,43 @@ h3 {
 	color:#E05C45;
 }
 
+h4 {
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+}
+
+h5{
+	background: #B8D3C0;
+	color: #2C3635;
+	padding: .7%;
+	padding-left: 3%;
+	margin-left: 1%;
+	width: 40%;
+}
 
 header {
 	text-align: center;
 	padding-bottom: 3%;
 }
 
-
-.boxOne  {
-	background-color: #EEEDEB;
-	padding: 10px 10px 30px 10px;
-
-}
-
 /*make an img center*/
 img{
 	display: block; 
 	width: 90%;
-	margin: 4% auto 4% auto;	
+	margin: 5% auto 5% auto;
 }
 
+
+table {
+	margin: auto;
+	padding-top: 4%;
+	margin-top: 5%;
+}
 
 strong-big {
 	font-size: 18px;
 }
+
 
 ul.fancy{
 	display: block;
@@ -151,9 +177,22 @@ ul.fancy li{
 	padding: 1.5% 0% 2.5% 0%;
 }
 
+.boxOne  {
+	background-color: #EEEDEB;
+	padding: 10px 10px 30px 10px;
+
+}
+
+.center{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
 .clr{
 	clear: both;
 }
+
 .container {
 	margin: auto;
 	width: 90%;
@@ -163,6 +202,12 @@ ul.fancy li{
 	/*top, right bottom, left*/
 	padding: 5px 5px 5px 5px;
 	margin-bottom: 10px;
+}
+
+.indent{
+	margin:0%;
+	margin-left: 3%;
+	line-height: 1.3em;
 }
 
 .mainHeader{
@@ -304,9 +349,64 @@ ul.fancy li{
 	right:2%;
 }
 
-.pBox .inherit: hover{
+.pBox .inherit:hover{
 	position: inherit;
 }
+
+/* table style from purecss.io */
+/* begin table styling */
+.pure-table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+
+.pure-table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.pure-table td,
+.pure-table th {
+    border-left: 1px solid #cbcbcb;/*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+}
+
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+.pure-table td:first-child,
+.pure-table th:first-child {
+    border-left-width: 0;
+}
+
+.pure-table thead {
+    background-color: #e0e0e0;
+    color: #974110;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*
+striping:
+   even - #fff (white)
+   odd  - #f2f2f2 (light gray)
+*/
+.pure-table td {
+    background-color: transparent;
+}
+.pure-table-odd td {
+    background-color: #f2f2f2;
+}
+
+/* end purecss.io */
 
 
 .twoCol .left {
@@ -347,3 +447,51 @@ teal{
 	color: teal;
 }
 
+/* HIS TUTORIAL JAVASCRIPT DOM CSS STYLE
+ */
+ #his-form {
+	width: 50%;
+	display:block;
+	margin: auto;
+	padding: 2rem;
+	background: #f4f4f4;
+  }
+  
+  #his-form label {
+	display: block;
+  }
+  
+  #his-form input[type='text'] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+  }
+  
+  .btn {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	border: 0;
+	background: #333;
+	color: #fff;
+	border-radius: 5px;
+	margin: 5px 0;
+  }
+  
+  .btn:hover {
+	background: #444;
+  }
+  
+  .bg-dark {
+	background: #333;
+	color: #fff;
+  }
+  
+  .error {
+	background: orangered;
+	color: #fff;
+	padding: 5px;
+	margin: 5px;
+  }
