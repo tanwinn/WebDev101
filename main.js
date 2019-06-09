@@ -92,4 +92,19 @@ console.log(sum(4,5));
 // 1:12:53
 // https://youtu.be/hdI2bqOjy3c
 
+//console.log(window);
 
+// Single Element
+// let form = document.getElementById("his-form");
+// document.querySelector(".container");
+
+document.querySelectorAll("h1");
+
+let btn = document.querySelector('.btn');
+// btn.style.background = 'red';
+btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    // document.querySelector("#his-form").style.background = "teal";
+    document.querySelector("#his-form").classList.add("mainHeader");
+    console.log(document.querySelector("#his-form"));
+});

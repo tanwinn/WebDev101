@@ -10,14 +10,15 @@
 <body>
 	<!-- header -->
 	<header class="mainHeader">
-		<h1>We Needs to Talk about JavaScript!</h1>
+		<h1>We Needs to Talk about <line-through>Vanilla</line-through> JavaScript!</h1>
 	</header>
 
 	<section class="container">
 		<!-- Overview -->
 		<section>
-			<h2>Overview: Javascrip</h2>
+			<h2>Overview: Javascript</h2>
 			<ul class="fancy">
+				<li><strong>is Vanilla JS</strong> = Raw JS = JS with <em>no</em> framework</li>
 				<li><strong>is classlss:</strong> no classes that defines the behaviour of a class statically</li>
 				<li><p>
 					<strong>uses prototypes instead:</strong> to define objects' properties, including methods & inheritance
@@ -202,21 +203,52 @@
 		<!-- DOM -->
 		<section>
 			<h2>DOM = Document Object Model</h2>
-			<form id="his-form">
-				<h3 class="center">Add User</h3>
-				<div class="msg"></div>
-				<div>
-				<label for="name">Name:</label>
-				<input type="text" id="name">
-				</div>
-				<div>
-				<label for="email">Email:</label>
-				<input type="text" id="email">
-				</div>
-				<input class="btn" type="submit" value="Submit">
-			</form>
+			<div>
+				<h3>Explaining stuff</h3>
+				<ul class="fancy">
+					<li>Document Object Model: a tree structure of the document</li>
+					<li><code>window</code> object = parent object of the browser (top level)
+						<code class="block">console.log(<teal>window</teal>);</code></li>
+					<li><code>document</code> of window object makes up the DOM, e.g. <code>document.getElementById("id");</code></li>
+				</ul>	
+			</div>
+				<h3>Single Element vs. Multiple Element</h3>
+				<h4>Single Element</h4>
+				<code class="block">querySelector();</code>
+				<h4>Multiple Element</h4>
+				<p>
+					<code>querySelectorAll();</code> returns a <strong>node list</strong>, which is a list object.
+				</p>
+			<div>
+
+			<div>
+				<h3>Events & event interface</h3>
+				<ul class="fancy">
+					<li>The <code>Event</code> interface = an event takes place in the DOM</li>
+					<li>Event object contains properties & methods common to all events</li>
+					<li>DOM elements can <em>listen</em> & <em>handle</em> events
+						</ul>
+					</li>
+				</ul>
+			</div>
+				<h3>Example</h3>
+				<form id="his-form">
+					<h3 class="center">Add User</h3>
+					<div class="msg"></div>
+					<div>
+					<label for="name">Name:</label>
+					<input type="text" id="name">
+					</div>
+					<div>
+					<label for="email">Email:</label>
+					<input type="text" id="email">
+					</div>
+					<input class="btn" type="submit" value="Submit">
+				</form>
 			
-				  <ul id="users"></ul>
+				<ul id="users"></ul>
+				<ul class="items"></ul>
+			</div>
 	
 		</section>
 	</section>
