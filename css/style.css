@@ -180,7 +180,6 @@ ul.fancy li{
 .boxOne  {
 	background-color: #EEEDEB;
 	padding: 10px 10px 30px 10px;
-
 }
 
 .center{
@@ -442,6 +441,11 @@ striping:
 crimson{
 	color: crimson;
 }
+
+line-through{
+	text-decoration: line-through;
+}
+
 
 teal{
 	color: teal;
